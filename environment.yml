@@ -1,13 +1,13 @@
-name: example-environment
+name: imcc
 channels:
   - conda-forge
 dependencies:
+  - python=3.7.*
   - numpy
-  - psutil
-  - toolz
+  - scipy
   - matplotlib
-  - dill
   - pandas
-  - partd
-  - bokeh
-  - dask
+  - xarray
+  - cartopy
+  - netcdf4
+  - ipywidgets
